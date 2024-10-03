@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible"  content="IE-edge">
+<meta name="viewport" content="device-width, initial-scale=1.0">
+<title>Personal Website</title>
+<link rel="stylesheet" type="text/css" href="sheet.css"/>
+         <!------Using FontAwesome-------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>                       
+  <!------Contact-------->
+
+        <div id="contact" class="bg-light">
+        	<div class="container">
+        		<h2>Get Your <span class="text-primary">Killer Website </span>Now</h2>
+        		<div class="form-container">
+        			<div class="mail-icon"><i class="fas fa-envelope"></i></div>
+        			<div class="form-box">
+        				<h3>Shoot Me a <span class="text-primary">Message</span></h3>
+        				<form>
+        					<div class="form-group">
+        						<label for="fname">First Name</label>
+        						<input type="text" id="fname" name="fname" pattern="[A-Za-z]{3,12}" title="First Name must be in between 3 and 12 characters in length and contain only letters from Aa to Zz." placeholder="Enter Your First Name" required>
+        					</div>
+        					<div class="form-group">
+        						<label for="last-name">Last Name</label>
+        						<input type="text" id="last-name"  name="last-name" pattern="[A-Za-z]{3,12}" title="Last Name must be in between 3 and 12 characters in length and contain only letters from Aa to Zz."  placeholder="Enter Your Last Name" required>
+        					</div>
+        					<div class="form-group">
+        						<label for="email">E-Mail</label>
+        						<input id="mail" type="email" placeholder="Enter Your Email" required>
+        					</div>
+        					<div class="form-group">
+        						<label for="message">Message</label>
+        						<textarea rows="7" placeholder="Enter Your Message" required></textarea>
+        					</div>
+        					<input type="submit" id="button" value="Send Message" class="contact-btn">
+        				</form>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+</body>
+</html>
